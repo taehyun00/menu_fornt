@@ -1,0 +1,75 @@
+.index_back{
+    background-color: #f3f3f3;
+
+    width: 500px;
+    height: 300vh;
+
+    position: relative;
+
+}
+
+.index_back_title{
+    position: absolute;
+
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 5vh;
+
+    top : 10vh;
+    left: 2vh;
+}
+
+.index_back_spans_div{
+    float: left;
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top:24vh;
+    left: 2vh;
+}
+
+.index_back_span{
+    position: absolute;
+    left: 0vh;
+
+    background: linear-gradient(90deg, #FF828B, #B5BCFF); /* 원하는 색상 조합 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.index_img_p{
+    position: absolute;
+    top:20%;
+}
+
+img{
+    width: 100.5%;
+}
+
+.index_dse_p{
+
+    font-family: 'GmarketSansMedium' ;
+    position: relative;
+    top:15vh;
+
+
+}
+
+.index_logo{
+    width: 25vh;
+    position: relative;
+    top:15vh;
+
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

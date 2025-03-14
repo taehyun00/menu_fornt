@@ -1,8 +1,17 @@
-import Main from "./pages/main"
+import Index from "./pages/index"
 import './App.css'
 
+
 function App() {
-  <Main />
+
+
+  return(
+  <div>
+    <Index />
+  </div>
+  )
 }
+
+
 
 export default App
