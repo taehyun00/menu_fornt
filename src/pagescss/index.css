@@ -12,10 +12,10 @@
     position: absolute;
 
     font-family: 'GangwonEduPowerExtraBoldA';
-    font-size: 5vh;
+    font-size: 4.5vh;
 
     top : 10vh;
-    left: 2vh;
+    left: 1vh;
 }
 
 .index_back_spans_div{
@@ -23,7 +23,7 @@
     font-family: 'GmarketSansMedium';
     position: absolute;
     top:24vh;
-    left: 2vh;
+    left: 1vh;
 }
 
 .index_back_span{
