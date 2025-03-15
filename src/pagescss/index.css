@@ -2,7 +2,7 @@
     background-color: #f3f3f3;
 
     width: 500px;
-    height: 300vh;
+    height: 250vh;
 
     position: relative;
 
@@ -60,6 +60,15 @@ img{
 
 }
 
+.index_ex{
+    position: absolute;
+    top:150vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
 @font-face {
     font-family: 'GangwonEduPowerExtraBoldA';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
