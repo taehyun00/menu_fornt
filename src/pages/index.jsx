@@ -49,7 +49,7 @@ function Index(){
             </div>
 
             <button className='index_button'>
-                <p className='index_button_p'>시작하기</p>
+                시작하기
             </button>
         </div>
     )

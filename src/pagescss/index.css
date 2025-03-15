@@ -77,18 +77,16 @@ img{
     width: 15vh;
     height: 5vh;
 
+    background: linear-gradient(to right, #FF828B, #B5BCFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: black;
+    border: 1px solid #ccc;
+
     
 
 }
 
-.index_button_p{
-    position: relative;
-    top:-70%;
-
-    background: linear-gradient(90deg, #FF828B, #B5BCFF); /* 원하는 색상 조합 */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 @font-face {
     font-family: 'GangwonEduPowerExtraBoldA';
