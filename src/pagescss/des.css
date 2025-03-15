@@ -1,7 +1,30 @@
 .des_back{
     text-align: start;
+    font-family: 'GmarketSansMedium' ;
 }
 
-.des_back_des{
-    
+.des_back_img{
+    width: 30%;
+}
+
+.des_back_ele{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.des_back_name{
+    font-size: 2vh;
+}
+
+.des_back_desc{
+    font-size: 1.5vh;
+    width: 40vh;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -3,13 +3,16 @@ function Des(props){
 
     return(
         <div className='des_back'>
-            <p>{props.when}</p>
-            <img src={props.imgs}></img>
+            <p className='des_back_when'>{props.when}</p>
+
+            <div className='des_back_ele'>
+            <img src={props.imgs} className='des_back_img'></img>
 
 
             <div className='des_back_des'>
-            <p>{props.name}</p>
-            <p>{props.des}</p>
+            <p className='des_back_name'>{props.name}</p>
+            <p className='des_back_desc'>{props.des}</p>
+            </div>
             </div>
         </div>
     )
