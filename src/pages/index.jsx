@@ -47,6 +47,10 @@ function Index(){
             imgs = {angry}
             />
             </div>
+
+            <button className='index_button'>
+                <p className='index_button_p'>시작하기</p>
+            </button>
         </div>
     )
 

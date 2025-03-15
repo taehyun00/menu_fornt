@@ -14,6 +14,7 @@ function Des(props){
             <p className='des_back_desc'>{props.des}</p>
             </div>
             </div>
+
         </div>
     )
 

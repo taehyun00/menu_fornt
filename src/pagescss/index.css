@@ -69,6 +69,27 @@ img{
     flex-direction: column;
 
 }
+
+.index_button{
+    position: relative;
+    top:230vh;
+    border-radius: 30px;
+    width: 15vh;
+    height: 5vh;
+
+    
+
+}
+
+.index_button_p{
+    position: relative;
+    top:-70%;
+
+    background: linear-gradient(90deg, #FF828B, #B5BCFF); /* 원하는 색상 조합 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @font-face {
     font-family: 'GangwonEduPowerExtraBoldA';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
