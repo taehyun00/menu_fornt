@@ -1,6 +1,8 @@
 .des_back{
     text-align: start;
     font-family: 'GmarketSansMedium' ;
+    position: relative;
+    margin: 4.5vh;
 }
 
 .des_back_img{
@@ -10,7 +12,7 @@
 .des_back_ele{
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap:2vh;
 }
 
 .des_back_name{
@@ -18,8 +20,12 @@
 }
 
 .des_back_desc{
-    font-size: 1.5vh;
-    width: 40vh;
+    font-size: 1.2vh;
+    width: 35vh;
+}
+
+.des_back_des{
+    
 }
 
 @font-face {
